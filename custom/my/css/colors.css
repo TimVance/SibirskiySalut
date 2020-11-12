@@ -1,0 +1,249 @@
+﻿body  { /*# Страница сайта */
+	color:  #252D30;
+}
+a  { /*# Ссылки */
+	color:  #252D30;
+}
+a:hover, a:active  { /*# Ссылки при наведении */
+	color:  #0C00FF;
+}
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before  { /*# Радио кнопки и чекбоксы */
+	border-color: #E5E7E9;
+	color:  #FFFFFF;
+}
+input[type="radio"]:checked + label:before  { /*# Радио кнопки активные */
+	border-color: #303048;
+}
+input[type="checkbox"]:checked + label:before  { /*# Чекбоксы активные */
+	background-color:  #303048;
+	border-color:  #303048;
+}
+input:not([type="submit"]):not([type="button"]):not([type="image"]),
+textarea  { /*# Поля ввода */
+	border-color:  #D5D6D8;
+	color:  #2E2E2E;
+}
+input:not([type="submit"]):not([type="button"]):not([type="image"]):hover,
+textarea:hover  { /*# Поля ввода при наведении */
+	border-color:  #D5D6D8;
+	color:  #2E2E2E;
+}
+input:not([type="submit"]):not([type="button"]):not([type="image"]):focus,
+input:not([type="submit"]):not([type="button"]):not([type="image"]):active,
+textarea:focus,
+textarea:active { /*# Поля ввода в фокусе и активные */
+	border-color:  #D5D6D8;
+	color:  #2E2E2E;
+}
+select  { /*# Селекты */
+	border-color: #D5D6D8;
+	background-color:  #FFFFFF;
+}
+.btn,
+a.btn,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button  { /*# Кнопки 2 */
+	color:  #FFFFFF;
+	background-color:  #404DFF;
+}
+.btn:hover,
+a.btn:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover  { /*# Кнопки 2 при наведении */
+	background-color:  #EC372A;
+	color:  #FFFFFF;
+}
+.btn-secondary  { /*# Второстепенные кнопки */
+	background-color:  #E5E7E9 !important;
+	color:  #252D30 !important;
+}
+#wrapper  { /*# Фон сайта */
+	background-color:  #FFFFFF;
+}
+.text a, .text a:hover  { /*# Ссылки в тексте */
+	color:  #303048;
+}
+.text a:visited  { /*# Посещенные ссылки в тексте */
+	color:  #A7B0B0;
+}
+.breadcrumb  { /*# Хлебные крошки */
+	color:  #808D8E;
+}
+.breadcrumb-item a:hover  { /*# Хлаебные крошки при наведении */
+	color:  #252D30;
+}
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover  { /*# Пагинатор */
+	background-color:  #303048;
+}
+.modal button.close  { /*# Кнопка закрыть */
+	color:  #252D30;
+}
+.rating__item:after  { /*# Рейтинг */
+	color:  #BDC3C7;
+}
+.rating__item.active:after  { /*# Рейтинг активный */
+	color:  #0C00FF;
+}
+.header, .main__page .header .mobile  { /*# Шапка */
+	background-color:  #EC372A;
+	color:#FFFFFF;
+}
+.header__icons .tag  { /*# Подсказка в шапке */
+	background-color:  #0C00FF;
+}
+.header__nav .navbar-brand  { /*# Логотип */
+	color:  #FFFFFF;
+}
+.header__nav .navbar-nav .dropdown-menu  { /*# Выпадающее меню */
+	background-color:  #2E2E2E;
+	box-shadow: none;
+}
+.header__nav .mobile .dropdown-menu  { /*# Выпадающее меню в мобильном виде */
+	background-color:  #2E2E2E;
+}
+.header__nav .dropdown-item:hover  { /*# Пункт выпадающего меню при наведении */
+	color:  #0C00FF;
+}
+.cover .cover-controls a  { /*# Навигация слайдера */
+	background-color:  #BDC3C7;
+}
+.cover .cover-controls a:hover  { /*# Навигация слайдера при наведении */
+	background-color:  #7F8C8D;
+}
+.cover .cover-controls a:focus, .cover .cover-controls a.flex-active  { /*# Активная навигация слайдера */
+	background-color:  #303048;
+}
+.footer .social > a,.footer .social > a:hover  { /*# Социальные кнопки */
+	background-color:  #0C00FF;
+	color:  #FFFFFF;
+}
+.social > a.fa-facebook  { /*# Фейсбук */
+	background-color:  #46629B;
+}
+.social > a.fa-vk  { /*# Вконтакте */
+	background-color:  #607E9C;
+}
+.social > a.fa-twitter  { /*# Твиттер */
+	background-color:  #59ADEB;
+}
+.box, .block  { /*# Блок */
+	background-color:  #FFFFFF;
+}
+.services__item  { /*# Блок иконки на главной */
+	color:  #54616A;
+	background-color: transparent;
+	box-shadow: none;
+}
+.catalog__item  { /*# Товар */
+	background-color:  #FFFFFF;
+}
+.catalog__price, .item__price  { /*# Цена товара */
+	color:  #2E2E2E;
+}
+.catalog__price__last, .item__price__last  { /*# Старая цена товара */
+	color:  #252D30;
+}
+.labels > span  { /*# Текст внутри статуса товара */
+	color:  #FFFFFF;
+}
+.labels__hit  { /*# Хит */
+	background-color:  #EC372A;
+}
+.labels__new  { /*# Новинка */
+	background-color:  #000000;
+}
+.labels__dis  { /*# Скидка */
+	background-color:  #32B38D;
+}
+.remember:hover, .remember.active  { /*# Иконка отложить */
+	color:  #0C00FF;
+}
+.sort a  { /*# Сортировка */
+	color:  #808D8E;
+}
+.item__tabs .nav-tabs  { /*# Табы */
+	border-color:  #303048;
+}
+.item__tabs .nav-tabs .nav-link:focus, .item__tabs .nav-tabs .nav-link:hover  { /*# Табы при наведении */
+	color:  #FFFFFF;
+	background-color:  #303048;
+	border-color:  #303048;
+}
+.item__tabs .nav-tabs .nav-link.active, .item__tabs .nav-tabs .nav-link.active:focus, .item__tabs .nav-tabs .nav-link.active:hover,
+.item__tabs .nav-tabs .nav-item.open .nav-link,
+.item__tabs .nav-tabs .nav-item.open .nav-link:focus,
+.item__tabs .nav-tabs .nav-item.open .nav-link:hover  { /*# Табы активные */
+	color:  #FFFFFF;
+	background-color:  #303048;
+	border-color:  #303048;
+}
+.pics .pics__big, .pics .pics__mini  { /*# Картинки в карточке товара */
+	border-color:  #F7F7F7;
+}
+.footer  { /*# Подвал */
+	background-color:  #2E2E2E;
+	color:#FFFFFF;
+}
+.cart th, .wishlist th  { /*# Заголовки в корзине */
+	color:  #7F8C8D;
+}
+.cart td  { /*# Пункты в корзине */
+	border-color:  #F5F5F6;
+}
+.cart td.cart_img > a, .wishlist td.wishlist_img > a  { /*# Картинки в корзине */
+	border-color:  #F5F5F6;
+}
+.cart_last_tr td.cart_summ, .cart-result .summ, .wishlist .wishlist_last_tr td.wishlist_summ   { /*# Сумма в корзине */
+	color:  #0C00FF;
+}
+.cart_last_tr td, .wishlist .wishlist_last_tr td  { /*# Итого в корзине */
+	border-color:  #E5E7E9;
+}
+.comments_date, .date, [class$="_date"]  { /*# Даты */
+	color:  #CACFCF;
+}
+.shop_no_buy, .shop_no_buy_good  { /*# Товар не доступен */
+	background-color:  #E5E3E3;
+}
+.header a{ /*# ссылки в шапке и в подвале */
+	color:#252d30;
+}
+.header a:hover { /*# ссылки в шапке и подвале при наведении */
+	color:#0C00FF;
+}
+.footer a {
+    color:#fff;
+}
+.footer a:hover {
+     color:#e5e7e9;
+}
+
+.catalog__title { /*# заголовок карточки товара */
+	color:#343B3E;
+}
+
+.header .search_form .input-group-addon {
+    background-color: #fff;
+}
+
+.header .search_form .input-group-addon:active, .header .search_form .input-group-addon:focus  {
+    color:#2E2E2E;
+}
+
+.main__page .header {
+    background-color: rgba(0,0,0,0);
+    box-shadow: none;
+}
+
+.navigation-wrapper {
+	background-color: red;
+}
+
+.navigation-wrapper a {
+	color: #fff;
+}

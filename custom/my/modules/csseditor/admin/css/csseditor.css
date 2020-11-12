@@ -1,0 +1,31 @@
+#csseditor_parser .name {
+    font-weight:bold;
+    padding-bottom:10px;
+    display:block;
+}
+
+#csseditor_parser > div > table td {
+    padding:5px;
+}
+
+#csseditor_parser > div > table td:first-child {
+    width:100px;
+}
+
+#csseditor_parser > div {
+    margin:10px 0 20px;
+}
+
+#csseditor_parser .transparent {
+    background: url(../img/transparent.jpg) center center;
+    background-size: 200%; 
+    width:16px;
+    height:16px;
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    cursor: pointer;
+}
+
+#csseditor_parser .transparent.active {
+    border:2px solid #000;
+}
