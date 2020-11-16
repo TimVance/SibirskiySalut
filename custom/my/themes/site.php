@@ -42,7 +42,7 @@ if (!defined("DIAFAN")) {
 <!-- /Yandex.Metrika counter -->  <body>
         <div id="wrapper">
             <insert name="show_include" file="header" />
-
+            <insert name="show_include" file="nav" />
             <main class="main">
                 <div class="container">
                     

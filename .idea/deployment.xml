@@ -15,7 +15,6 @@
             <excludedPath path="/www/includes" />
             <excludedPath path="/www/js" />
             <excludedPath path="/www/langs" />
-            <excludedPath path="/www/modules" />
             <excludedPath path="/www/plugins" />
             <excludedPath path="/www/return" />
             <excludedPath path="/www/themes" />
@@ -28,7 +27,6 @@
             <excludedPath local="true" path="$PROJECT_DIR$/includes" />
             <excludedPath local="true" path="$PROJECT_DIR$/js" />
             <excludedPath local="true" path="$PROJECT_DIR$/langs" />
-            <excludedPath local="true" path="$PROJECT_DIR$/modules" />
             <excludedPath local="true" path="$PROJECT_DIR$/plugins" />
             <excludedPath local="true" path="$PROJECT_DIR$/return" />
             <excludedPath local="true" path="$PROJECT_DIR$/themes" />
@@ -39,6 +37,65 @@
             <excludedPath path="/www/custom/custom28_01_2020_12_54" />
             <excludedPath path="/www/custom/custom_28_01_2020_12_49" />
             <excludedPath path="/www/custom/custom_28_01_2020_12_52" />
+            <excludedPath path="/www/modules/ab" />
+            <excludedPath path="/www/modules/account" />
+            <excludedPath path="/www/modules/addons" />
+            <excludedPath path="/www/modules/admin" />
+            <excludedPath path="/www/modules/attachments" />
+            <excludedPath path="/www/modules/balance" />
+            <excludedPath path="/www/modules/bbcode" />
+            <excludedPath path="/www/modules/bs" />
+            <excludedPath path="/www/modules/captcha" />
+            <excludedPath path="/www/modules/cart" />
+            <excludedPath path="/www/modules/cashregister" />
+            <excludedPath path="/www/modules/clauses" />
+            <excludedPath path="/www/modules/comments" />
+            <excludedPath path="/www/modules/config" />
+            <excludedPath path="/www/modules/consultant" />
+            <excludedPath path="/www/modules/crontab" />
+            <excludedPath path="/www/modules/custom" />
+            <excludedPath path="/www/modules/dashboard" />
+            <excludedPath path="/www/modules/delivery" />
+            <excludedPath path="/www/modules/executable" />
+            <excludedPath path="/www/modules/faq" />
+            <excludedPath path="/www/modules/feedback" />
+            <excludedPath path="/www/modules/filemanager" />
+            <excludedPath path="/www/modules/files" />
+            <excludedPath path="/www/modules/forum" />
+            <excludedPath path="/www/modules/geomap" />
+            <excludedPath path="/www/modules/images" />
+            <excludedPath path="/www/modules/inserts" />
+            <excludedPath path="/www/modules/keywords" />
+            <excludedPath path="/www/modules/languages" />
+            <excludedPath path="/www/modules/log" />
+            <excludedPath path="/www/modules/map" />
+            <excludedPath path="/www/modules/menu" />
+            <excludedPath path="/www/modules/messages" />
+            <excludedPath path="/www/modules/mistakes" />
+            <excludedPath path="/www/modules/news" />
+            <excludedPath path="/www/modules/order" />
+            <excludedPath path="/www/modules/paginator" />
+            <excludedPath path="/www/modules/payment" />
+            <excludedPath path="/www/modules/photo" />
+            <excludedPath path="/www/modules/postman" />
+            <excludedPath path="/www/modules/rating" />
+            <excludedPath path="/www/modules/registration" />
+            <excludedPath path="/www/modules/reminding" />
+            <excludedPath path="/www/modules/reviews" />
+            <excludedPath path="/www/modules/search" />
+            <excludedPath path="/www/modules/service" />
+            <excludedPath path="/www/modules/site" />
+            <excludedPath path="/www/modules/subscription" />
+            <excludedPath path="/www/modules/tags" />
+            <excludedPath path="/www/modules/trash" />
+            <excludedPath path="/www/modules/update" />
+            <excludedPath path="/www/modules/useradmin" />
+            <excludedPath path="/www/modules/userpage" />
+            <excludedPath path="/www/modules/users" />
+            <excludedPath path="/www/modules/usersettings" />
+            <excludedPath path="/www/modules/visitors" />
+            <excludedPath path="/www/modules/votes" />
+            <excludedPath path="/www/modules/wishlist" />
           </excludedPaths>
         </serverdata>
       </paths>

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="Начал выполнять задание">
-      <change afterPath="$PROJECT_DIR$/custom/my/img/sim-red-logo.png" afterDir="false" />
+    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom/my/themes/blocks/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/blocks/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/themes/blocks/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/blocks/aside.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/themes/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/themes/site_catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/site_catalog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -51,7 +57,7 @@
       <workItem from="1605213730594" duration="4637000" />
       <workItem from="1605274720969" duration="1556000" />
       <workItem from="1605435365221" duration="193000" />
-      <workItem from="1605518263267" duration="3536000" />
+      <workItem from="1605518263267" duration="12796000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605217808833</created>
@@ -60,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605217808833</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Шапка">
+      <created>1605530270617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605530270617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,17 +83,18 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Шапка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Шапка" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="104" key="#Deployment" timestamp="1605214047904">
+    <state x="320" y="104" key="#Deployment" timestamp="1605537826780">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605214047904" />
-    <state x="304" y="42" key="CommitChangelistDialog2" timestamp="1605217871821">
+    <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605537826780" />
+    <state x="304" y="42" key="CommitChangelistDialog2" timestamp="1605530270380">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605217871821" />
+    <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605530270380" />
     <state x="592" y="338" key="publish.login" timestamp="1605519952314">
       <screen x="0" y="23" width="1440" height="832" />
     </state>

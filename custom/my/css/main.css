@@ -1479,12 +1479,6 @@ input:not([type="submit"]):not([type="button"]):not([type="image"]).number {
     box-shadow: 0 10px 35px 0 rgba(0,0,0,.1), 0 10px 35px 0 rgba(255,173,0,.1);
 }
 
-.header {
-    background-image: url(../img/head_img.jpg);
-	background-position: 50% 50%; 
-	background-repeat: no-repeat; 
-	background-size: cover;
-}
 .header_new {
     background-image: url(../img/head_img.jpg) !important;
 	position: relative !important;

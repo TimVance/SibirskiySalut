@@ -90,8 +90,7 @@ button:hover  { /*# Кнопки 2 при наведении */
 	color:  #0C00FF;
 }
 .header, .main__page .header .mobile  { /*# Шапка */
-	background-color:  #EC372A;
-	color:#FFFFFF;
+	background-color:  #fff;
 }
 .header__icons .tag  { /*# Подсказка в шапке */
 	background-color:  #0C00FF;

@@ -22,6 +22,6 @@ if (!defined("DIAFAN")) {
 } ?>
 
 
-                            <insert name="show_search" module="shop">
+                            <insert name="show_search" module="shop" cat_id="current">
 
                             <!--<insert name="show_block" module="bs" cat_id="4" count="1">-->
