@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="SibirskiySalut" autoUploadExternalChanges="true" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="SibirskiySalut">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/www/adm" />
+            <excludedPath path="/www/cache" />
+            <excludedPath path="/www/css" />
+            <excludedPath path="/www/img" />
+            <excludedPath path="/www/includes" />
+            <excludedPath path="/www/js" />
+            <excludedPath path="/www/langs" />
+            <excludedPath path="/www/modules" />
+            <excludedPath path="/www/plugins" />
+            <excludedPath path="/www/return" />
+            <excludedPath path="/www/themes" />
+            <excludedPath path="/www/tmp" />
+            <excludedPath path="/www/userfls" />
+            <excludedPath local="true" path="$PROJECT_DIR$/adm" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/css" />
+            <excludedPath local="true" path="$PROJECT_DIR$/img" />
+            <excludedPath local="true" path="$PROJECT_DIR$/includes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/js" />
+            <excludedPath local="true" path="$PROJECT_DIR$/langs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/plugins" />
+            <excludedPath local="true" path="$PROJECT_DIR$/return" />
+            <excludedPath local="true" path="$PROJECT_DIR$/themes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/tmp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/userfls" />
+            <excludedPath path="/www/custom/addon_312_addonsamocrm_client" />
+            <excludedPath path="/www/custom/addon_492_addonslimtek" />
+            <excludedPath path="/www/custom/custom28_01_2020_12_54" />
+            <excludedPath path="/www/custom/custom_28_01_2020_12_49" />
+            <excludedPath path="/www/custom/custom_28_01_2020_12_52" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>

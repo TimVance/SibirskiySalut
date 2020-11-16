@@ -280,7 +280,10 @@ button {
     font-size: 11px; }
 
 .header__nav {
-  display: table;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   padding: 0; }
   .header__nav > .header__unit {
@@ -1396,10 +1399,6 @@ input:not([type="submit"]):not([type="button"]):not([type="image"]).number {
     max-width: 160px;
     height: auto;
 }
-.main__page .navbar-brand img {
-/*	display: none;*/
-    visibility: hidden;
-}
 @media (max-width: 767px) {
 .navbar-brand img {
     max-width: 120px;
@@ -1736,4 +1735,16 @@ img {
 .navbar-nav .nav-link {
   font-weight: bolder;
   text-transform: uppercase;
+}
+
+header .phone {
+  color: #252d30;
+}
+
+.header_phone_block p, .header_address_block p {
+  margin: 0;
+}
+
+.header_phone_block {
+  line-height: 1.2;
 }

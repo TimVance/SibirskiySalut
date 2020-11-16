@@ -22,9 +22,9 @@ if (!defined("DIAFAN")) {
 ?>
 <header class="header">
     <div class="container">
-        <nav class="header__nav navbar">
+        <nav class="header__nav">
 
-            <div class="header__unit header__header">
+            <div class="header_unit header__header">
                 <div class="header__table">
                     <a href="<insert name="path">" class="navbar-brand">
                         <insert name="show_block" module="site" id="1">
@@ -37,10 +37,14 @@ if (!defined("DIAFAN")) {
                     </div>
                 </div>
             </div>
-            <div class="header__unit">
-                <a href="#">8-9272-707-898</a>
+            <div class="header_unit header_address_block">
+                <insert name="show_block" module="site" id="22"></insert>
             </div>
-            <div class="header__unit">
+            <div class="header_unit header_phone_block">
+                <insert name="show_block" module="site" id="4" template="footer">
+                <a href="#">Заказать звонок</a>
+            </div>
+            <div class="header_unit">
                 <div class="collapse navbar-toggleable-md" id="header-nav">
                     <div class="header__table hidden-xs-down">
                         

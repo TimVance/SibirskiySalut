@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="Начал выполнять задание">
+      <change afterPath="$PROJECT_DIR$/custom/my/img/sim-red-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/themes/blocks/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/blocks/header.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1kCo2VoQjjieDxfiOTRRfZWioR6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/custom/my/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="" />
+      <created>1605213728967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605213728967</updated>
+      <workItem from="1605213730594" duration="4637000" />
+      <workItem from="1605274720969" duration="1556000" />
+      <workItem from="1605435365221" duration="193000" />
+      <workItem from="1605518263267" duration="3536000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1605217808833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605217808833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="104" key="#Deployment" timestamp="1605214047904">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605214047904" />
+    <state x="304" y="42" key="CommitChangelistDialog2" timestamp="1605217871821">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605217871821" />
+    <state x="592" y="338" key="publish.login" timestamp="1605519952314">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="592" y="338" key="publish.login/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605519952314" />
+  </component>
+</project>
