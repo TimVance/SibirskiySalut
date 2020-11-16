@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom/my/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom/my/themes/blocks/aside.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/blocks/aside.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom/my/themes/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/themes/site_catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/site_catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/shop/shop.model.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/shop/shop.model.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <workItem from="1605213730594" duration="4637000" />
       <workItem from="1605274720969" duration="1556000" />
       <workItem from="1605435365221" duration="193000" />
-      <workItem from="1605518263267" duration="12796000" />
+      <workItem from="1605518263267" duration="19361000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605217808833</created>
@@ -73,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605530270617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Закончил писать модель фильтра">
+      <created>1605543180863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605543180863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,17 +88,30 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="Шапка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Шапка" />
+    <MESSAGE value="Закончил писать модель фильтра" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закончил писать модель фильтра" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="104" key="#Deployment" timestamp="1605537826780">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605537826780" />
-    <state x="304" y="42" key="CommitChangelistDialog2" timestamp="1605530270380">
+    <state x="304" y="42" key="CommitChangelistDialog2" timestamp="1605543180609">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605530270380" />
+    <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605543180609" />
+    <state x="577" y="343" key="Github.ShareDialog" timestamp="1605543200218">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="577" y="343" key="Github.ShareDialog/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605543200218" />
+    <state x="320" y="179" key="Vcs.Push.Dialog.v2" timestamp="1605543184170">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605543184170" />
+    <state x="100" y="123" width="1240" height="632" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1605545542291">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="100" y="123" width="1240" height="632" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605545542291" />
     <state x="592" y="338" key="publish.login" timestamp="1605519952314">
       <screen x="0" y="23" width="1440" height="832" />
     </state>

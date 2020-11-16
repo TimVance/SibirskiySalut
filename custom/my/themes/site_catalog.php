@@ -52,6 +52,7 @@ if (!defined("DIAFAN")) {
 <body>
 <div id="wrapper">
     <insert name="show_include" file="header"/>
+    <insert name="show_include" file="nav" />
 
     <main class="main">
         <div class="container">
@@ -94,20 +95,24 @@ if (!defined("DIAFAN")) {
 
 <script>/* слайдер цен */
     $(document).ready(function () {
-        $(".slider-range").slider({
-            min: 0,
-            max: 100000,
-            values: [0, 100000],
-            range: true,
-            stop: function (event, ui) {
-                $(this).parent().find(".from").val($(this).slider("values", 0));
-                $(this).parent().find(".to").val($(this).slider("values", 1));
-
-            },
-            slide: function (event, ui) {
-                $(this).parent().find(".from").val($(this).slider("values", 0));
-                $(this).parent().find(".to").val($(this).slider("values", 1));
-            }
+        $(".slider-range").each(function () {
+            range = $(this);
+            let from = $(this).parent().find(".from");
+            let to = $(this).parent().find(".to");
+            range.slider({
+                min: from.data("min"),
+                max: to.data("max"),
+                values: [from.val(), to.val()],
+                range: true,
+                stop: function (event, ui) {
+                    from.val($(this).slider("values", 0));
+                    to.val($(this).slider("values", 1));
+                },
+                slide: function (event, ui) {
+                    from.val($(this).slider("values", 0));
+                    to.val($(this).slider("values", 1));
+                }
+            });
         });
     });
 </script>

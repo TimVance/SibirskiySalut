@@ -2636,7 +2636,7 @@ class Shop_model extends Model
             else {
                 $bounds = DB::query_fetch_array('select min(price) as min, max(price) as max from {shop} as s join {shop_price} as p on s.id=p.good_id where s.cat_id in ('.implode(', ',$cat_ids).')');
             }
-            if (empty($bounds)) {
+            if (!empty($bounds)) {
                 $result["price"]["value_min"] = intval($bounds["min"]);
                 $result["price"]["value_max"] = intval($bounds["max"]);
             }

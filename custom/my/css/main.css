@@ -1689,7 +1689,7 @@ img {
     top: 50%;
 }
 
-#slider-range {
+.slider-range {
     width: 90%;
     margin: 0 auto;
 	height:8px;
@@ -1700,25 +1700,42 @@ img {
     padding: 10px 0 0;
 }
 
-#slider-range .ui-slider-handle {
+.slider-range .ui-slider-handle {
     cursor: pointer;
     border-radius: 25px;
     background: #404DFF;
 	border: 3px solid #fff !important;
 }
-#slider-range .ui-slider-handle:hover {
+.slider-range .ui-slider-handle:hover {
     background: #EC372A;
 }
-#slider-range .ui-slider-handle:active, 
-#slider-range .ui-slider-handle:focus {
+.slider-range .ui-slider-handle:active,
+.slider-range .ui-slider-handle:focus {
     outline: none !important;
 }
 
-#slider-range .ui-slider-range.ui-widget-header.ui-corner-all {
-	background: #70b8ff;
+.slider-range.ui-slider-horizontal {
+  height: .3em;
 }
-#slider-range .ui-slider-range.ui-widget-header.ui-corner-all:nth-child(1) {
+
+.slider-range .ui-slider-range.ui-widget-header.ui-corner-all {
+	background: #ed0004;
+}
+.slider-range .ui-slider-range.ui-widget-header.ui-corner-all:nth-child(1) {
 	background: #ddd !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+  background-color: #ed0004 !important;
+}
+
+.ui-state-default.ui-state-active {
+  background-color: #252d30 !important;
+}
+
+.ui-slider .ui-slider-handle {
+  width: 1em !important;
+  height: 1em !important;
 }
 
 .flexBetween {

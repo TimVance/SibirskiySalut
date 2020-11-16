@@ -93,15 +93,15 @@ if (! empty($result["price"]))
 }
 */
 
-//print_r($result);
+
 if (!empty($result["price"])) {
     echo '<div class="shop_search_price formCost">
 		<span class="infofield">' . $this->diafan->_('Цена') . ':</span>
 		<div class="inline">
                         <label>' . $this->diafan->_('От') . '</label>
-			<input type="text" id="minCost" class="from" name="pr1" value="' . $result["price"]["value1"] . '">
+			<input type="text" id="minCost" class="from" name="pr1" data-min="' . $result["price"]["value_min"] . '" value="' . (!empty($result["price"]["value1"]) ? $result["price"]["value1"] : $result["price"]["value_min"]) . '">
 			<label>' . $this->diafan->_('до') . '</label>
-			<input type="text" id="maxCost" class="to" name="pr2" value="' . $result["price"]["value2"] . '">
+			<input type="text" id="maxCost" class="to" name="pr2" data-max="' . $result["price"]["value_max"] . '" value="' . (!empty($result["price"]["value2"]) ? $result["price"]["value2"] : $result["price"]["value_max"]) . '">
 		</div>';
 
     echo '<div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
@@ -183,9 +183,9 @@ if (!empty($result["rows"])) {
 				<span class="infofield">' . $row["name"] . ':</span>
 				<div class="inline">
                                         <label>' . $this->diafan->_('От') . '</label>
-					<input class="from" type="text" name="p' . $row["id"] . '_1" value="' . $row["value1"] . '">
+					<input class="from" type="text" name="p' . $row["id"] . '_1" data-min="' . $row["value_min"] . '" value="' . (!empty($row["value1"]) ? $row["value1"] : $row["value_min"]) . '">
 					<label>' . $this->diafan->_('до') . '</label>
-					<input class="to" type="text"  name="p' . $row["id"] . '_2" value="' . $row["value2"] . '">
+					<input class="to" type="text"  name="p' . $row["id"] . '_2" data-max="' . $row["value_max"] . '" value="' . (!empty($row["value2"]) ? $row["value2"] : $row["value_max"]) . '">
 				</div>';
                 echo '
 				<div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
