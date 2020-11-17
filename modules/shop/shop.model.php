@@ -2631,10 +2631,10 @@ class Shop_model extends Model
             $result["price"]["value2"] = $this->diafan->filter($_REQUEST, "int", "pr2");
 
             if (empty($cat_ids)) {
-                $bounds = DB::query_fetch_array('select min(price) as min, max(price) as max from {shop} as s join {shop_price} as p on s.id=p.good_id');
+                $bounds = DB::query_fetch_array("select min(price) as min, max(price) as max from {shop} as s join {shop_price} as p on s.id=p.good_id where s.[act]='1' and s.trash='0'");
             }
             else {
-                $bounds = DB::query_fetch_array('select min(price) as min, max(price) as max from {shop} as s join {shop_price} as p on s.id=p.good_id where s.cat_id in ('.implode(', ',$cat_ids).')');
+                $bounds = DB::query_fetch_array("select min(price) as min, max(price) as max from {shop} as s join {shop_price} as p on s.id=p.good_id where s.[act]='1' and s.trash='0' and s.cat_id in (".implode(', ',$cat_ids).")");
             }
             if (!empty($bounds)) {
                 $result["price"]["value_min"] = intval($bounds["min"]);
@@ -2703,10 +2703,10 @@ class Shop_model extends Model
 
                     $bounds_param = [];
                     if (empty($cat_ids)) {
-                        $bounds_param = DB::query_fetch_array("select min([value]) as min, max([value]) as max from {shop} as s join {shop_param_element} as p on s.id=p.element_id where p.param_id='%d'", $row["id"]);
+                        $bounds_param = DB::query_fetch_array("select min([value]) as min, max([value]) as max from {shop} as s join {shop_param_element} as p on s.id=p.element_id where s.trash='%d' and s.[act]='%d' and p.param_id='%d'", 0, 1, $row["id"]);
                     }
                     else {
-                        $bounds_param = DB::query_fetch_array("select min([value]) as min, max([value]) as max from {shop} as s join {shop_param_element} as p on s.id=p.element_id where p.param_id='%d' and s.cat_id in (".implode(', ',$cat_ids).")", $row["id"]);
+                        $bounds_param = DB::query_fetch_array("select min([value]) as min, max([value]) as max from {shop} as s join {shop_param_element} as p on s.id=p.element_id where s.trash='%d' and s.[act]='%d' and p.param_id='%d' and s.cat_id in (".implode(', ',$cat_ids).")", 0, 1, $row["id"]);
                     }
                     if (!empty($bounds_param)) {
                         $row["value_min"] = intval($bounds_param["min"]);
