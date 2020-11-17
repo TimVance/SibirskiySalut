@@ -179,21 +179,23 @@ if (!empty($result["rows"])) {
                 break;
 
             case 'numtext':
-                echo '
-				<span class="infofield">' . $row["name"] . ':</span>
-				<div class="inline">
-                                        <label>' . $this->diafan->_('От') . '</label>
-					<input class="from" type="text" name="p' . $row["id"] . '_1" data-min="' . $row["value_min"] . '" value="' . (!empty($row["value1"]) ? $row["value1"] : $row["value_min"]) . '">
-					<label>' . $this->diafan->_('до') . '</label>
-					<input class="to" type="text"  name="p' . $row["id"] . '_2" data-max="' . $row["value_max"] . '" value="' . (!empty($row["value2"]) ? $row["value2"] : $row["value_max"]) . '">
-				</div>';
-                echo '
-				<div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                    <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%; width: 100%;"></div>
-                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span>
-                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
-                </div>
-				';
+                if (!empty($row["value_max"]) && $row["value_max"] > $row["value_min"]) {
+                    echo '
+                        <span class="infofield">' . $row["name"] . ':</span>
+                        <div class="inline">
+                                                <label>' . $this->diafan->_('От') . '</label>
+                            <input class="from" type="text" name="p' . $row["id"] . '_1" data-min="' . $row["value_min"] . '" value="' . (!empty($row["value1"]) ? $row["value1"] : $row["value_min"]) . '">
+                            <label>' . $this->diafan->_('до') . '</label>
+                            <input class="to" type="text"  name="p' . $row["id"] . '_2" data-max="' . $row["value_max"] . '" value="' . (!empty($row["value2"]) ? $row["value2"] : $row["value_max"]) . '">
+                        </div>';
+                    echo '
+                        <div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                            <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%; width: 100%;"></div>
+                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span>
+                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
+                        </div>
+                    ';
+                }
                 break;
 
             case 'checkbox':

@@ -54,7 +54,7 @@ if (!defined("DIAFAN")) {
         <main class="main">
             <div class="container">
                 
-               
+               <insert name="show_block" module="ab" template="sections" count="16" images="true"></insert>
                     
                     <insert name="show_block" module="site" id="10">
                      <insert name="show_block" module="site" id="11"> 
@@ -79,6 +79,9 @@ if (!defined("DIAFAN")) {
 
 <insert name="show_include" file="script"/>
 
+<link rel="stylesheet" href="/slick/slick.css">
+<link rel="stylesheet" href="/slick/slick-theme.css">
+<script src="/slick/slick.min.js"></script>
 <script>
 $(function () {
   $('#tworighslider').carousel({
@@ -86,6 +89,12 @@ $(function () {
     keyboard: false,
     pause: 'hover'
   });
+    $('.sectionslider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+    });
 });
 </script>
 
