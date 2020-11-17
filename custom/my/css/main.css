@@ -1869,3 +1869,34 @@ header .phone {
     width: 100%;
   }
 }
+
+.counts-wrapper {
+  background-color: #ed0004;
+  color: #fff;
+  padding: 40px 0 20px 0;
+}
+
+.counters-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.counters-item {
+  max-width: 160px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.counters-item .number {
+  border: 5px solid #fff;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 100%;
+  font-size: 28px;
+  margin-bottom: 20px;
+}

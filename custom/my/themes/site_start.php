@@ -61,14 +61,20 @@ if (!defined("DIAFAN")) {
                      <insert name="show_block" module="site" id="16"> 
                
                 <insert name="show_block" module="site" id="12">
-               
-                 
+
+            </div>
+
+            <div class="counts-wrapper">
+                <div class="container">
+                    <insert name="show_block" module="bs" cat_id="8" template="counters" count="6"></insert>
+                </div>
+            </div>
+
+            <div class="container">
+
 				<insert name="show_body">
 				
-				<insert name="show_block" module="site" id="15">				
-                                               
-                
-				
+				<insert name="show_block" module="site" id="15">
                 
             </div>
         </main>
@@ -96,6 +102,29 @@ $(function () {
         dots: false,
     });
 });
+</script>
+<script>
+    $(function () {
+        let lists = $(".counters-list .number");
+        lists.each(function () {
+            let target_block = $(this);
+            var blockStatus = true;
+            $(window).scroll(function () {
+                var scrollEvent = ($(window).scrollTop() > (target_block.offset().top - $(window).height()));
+                if (scrollEvent && blockStatus) {
+                    console.log("ty");
+                    blockStatus = false; // Запрещаем повторное выполнение функции до следующей перезагрузки страницы.
+                    $({numberValue: 0}).animate({numberValue: target_block.data("number")}, {
+                        duration: 3000, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
+                        easing: "linear",
+                        step: function (val) {
+                            target_block.html(Math.ceil(val)); // Блок, где необходимо сделать анимацию
+                        }
+                    });
+                }
+            });
+        });
+    });
 </script>
 
 </body>
