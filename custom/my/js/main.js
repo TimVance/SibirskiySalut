@@ -49,7 +49,7 @@ $(function () {
             return false;
 
         $(this).hide(0, function () {
-            $(".header__nav .navbar-nav").fadeOut('fast', function () {
+            $(".header__nav .navbar-nav, #header-search").fadeOut('fast', function () {
                 el.fadeIn('slow');
             });
 
