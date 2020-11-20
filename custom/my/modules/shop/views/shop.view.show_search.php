@@ -200,17 +200,19 @@ if (!empty($result["rows"])) {
 
             case 'checkbox':
                 echo '
-				<input type="checkbox" id="shop_search_p' . $row["id"] . $rand_id . '" name="p' . $row["id"] . '" value="1"' . ($row["value"] ? " checked" : '') . '>
-				<label for="shop_search_p' . $row["id"] . $rand_id . '">' . $row["name"] . '</label>
-				<br>';
+                <div>
+				    <input type="checkbox" id="shop_search_p' . $row["id"] . $rand_id . '" name="p' . $row["id"] . '" value="1"' . ($row["value"] ? " checked" : '') . '>
+				    <label for="shop_search_p' . $row["id"] . $rand_id . '">' . $row["name"] . '</label>
+				</div>';
                 break;
 
             case 'select':
             case 'multiple':
                 if ($row["id"] == 19) {
+                    echo '<span class="infofield">' . $row["name"] . ':</span>';
                     echo '<div class="animation-effect">
-                        <div class="image"><img src="/attachments/get/7/1000chry.gif"> </div>
-                        <div class="title">Эффект 1000 хризантем</div>
+                        <div class="image"></div>
+                        <div class="title"></div>
                         </div>';
                     foreach ($row["select_array"] as $key => $value) {
                         $rows_effects = [];
@@ -219,7 +221,7 @@ if (!empty($result["rows"])) {
                             WHERE p.param_id=%d AND p.[value]=%d", 4, $key, "param_id");
 
                         if (!empty($rows_effects)) {
-                            echo '<label class="effect-filter-label" style="background-image: url(/attachments/get/' . $rows_effects[2][0]["id"] . '/' . $rows_effects[2][0]["name"] . ')" data-url="/attachments/get/' . $rows_effects[3][0]["id"] . '/' . $rows_effects[3][0]["name"] . '" data-name="'.$value.'">';
+                            echo '<label class="effect-filter-label '.(in_array($key, $row["value"]) ? " active" : '').'" style="background-image: url(/attachments/get/' . $rows_effects[2][0]["id"] . '/' . $rows_effects[2][0]["name"] . ')" data-url="/attachments/get/' . $rows_effects[3][0]["id"] . '/' . $rows_effects[3][0]["name"] . '" data-name="'.$value.'">';
                                 echo '<input type="checkbox" id="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '" name="p' . $row["id"] . '[]" value="' . $key . '"' . (in_array($key, $row["value"]) ? " checked" : '') . '>';
                             echo '</label>';
                         }
