@@ -1517,6 +1517,7 @@ class Ab_model extends Model
 					INNER JOIN {ab_param_element} AS pe".$id." ON pe".$id.".element_id=e.id AND pe".$id.".param_id='".$id."'"
 					. " AND pe".$id.".trash='0' AND pe".$id.".value".$this->diafan->_languages->site.$operators[$id]."'%h'";
 					$values[] = $value;
+
 				}
 			}
 			$values[] = $time;
@@ -2479,6 +2480,7 @@ class Ab_model extends Model
 					"id" => $row["id"],
 					"name" => $row["name"],
 					"value" => $row["value"],
+					"value1" => $row["value"],
 					"value_id" => (! empty($row["value_id"]) ? $row["value_id"] : ''),
 					"use_animation" => ! empty($row["use_animation"]) ? true : false,
 					"text" => $row["text"],

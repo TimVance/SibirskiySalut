@@ -37,7 +37,6 @@
             <excludedPath path="/www/custom/custom28_01_2020_12_54" />
             <excludedPath path="/www/custom/custom_28_01_2020_12_49" />
             <excludedPath path="/www/custom/custom_28_01_2020_12_52" />
-            <excludedPath path="/www/modules/ab" />
             <excludedPath path="/www/modules/account" />
             <excludedPath path="/www/modules/addons" />
             <excludedPath path="/www/modules/admin" />

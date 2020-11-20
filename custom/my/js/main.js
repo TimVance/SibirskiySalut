@@ -100,8 +100,6 @@ $(function () {
         input.val(value);
     });
     
-    
-    
 
 });
 

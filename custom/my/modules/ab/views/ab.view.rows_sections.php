@@ -44,8 +44,8 @@ foreach ($result["rows"] as $row)
                 if (!empty($row["param"])) {
                     foreach ($row["param"] as $param) {
                         if ($param["id"] == 1) {
-                            if (!empty($param["value"])) {
-                                $link = $param["value"];
+                            if (!empty($param["value1"])) {
+                                $link = $param["value1"];
                             }
                         }
                     }
@@ -58,7 +58,7 @@ foreach ($result["rows"] as $row)
                 }
                 echo '<div class="text">'.$row["text"].'</div>';
                 if (!empty($link)) {
-                    echo '<a href="'.$link.'" class="linkto">Подробнее</a>';
+                    echo '<a href="'.$link.'" class="btn">Подробнее</a>';
                 }
             echo '</div>';
         echo '</div>';
