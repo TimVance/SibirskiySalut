@@ -58,7 +58,7 @@ if (!defined("DIAFAN")) {
                     
                     <insert name="show_block" module="site" id="10">
                      <insert name="show_block" module="site" id="11"> 
-                     <insert name="show_block" module="site" id="16"> 
+                     <insert name="show_block" module="site" id="16">
                
                 <insert name="show_block" module="site" id="12">
 
