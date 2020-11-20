@@ -54,7 +54,7 @@ if (!defined("DIAFAN")) {
         <main class="main">
             <div class="container">
                 
-               <insert name="show_block" module="ab" template="sections" count="16" images="true"></insert>
+               <insert name="show_block" module="ab" template="sections" count="16" images="true" site_id="172"></insert>
                     
                     <insert name="show_block" module="site" id="10">
                      <insert name="show_block" module="site" id="11"> 

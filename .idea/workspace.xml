@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="">
+    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="При наведении эффекты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/themes/site_start.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/site_start.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
       <workItem from="1605716434049" duration="558000" />
       <workItem from="1605793757296" duration="20000" />
       <workItem from="1605881094527" duration="2814000" />
-      <workItem from="1605883918366" duration="8835000" />
+      <workItem from="1605883918366" duration="8871000" />
+      <workItem from="1605893998572" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605217808833</created>
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605883909219</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="При наведении эффекты">
+      <created>1605893864949</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605893864949</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,18 +165,19 @@
     <MESSAGE value="Вернул поиск" />
     <MESSAGE value="Вывел ссылки в админке правильно" />
     <MESSAGE value="Сортировка объявлений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сортировка объявлений" />
+    <MESSAGE value="При наведении эффекты" />
+    <option name="LAST_COMMIT_MESSAGE" value="При наведении эффекты" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="104" key="#Deployment" timestamp="1605537826780">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605537826780" />
-    <state x="304" y="31" key="CommitChangelistDialog2" timestamp="1605883908967">
+    <state x="304" y="31" key="CommitChangelistDialog2" timestamp="1605894935548">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716982716" />
-    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605883908967" />
+    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605894935548" />
     <state x="577" y="343" key="Github.ShareDialog" timestamp="1605543200218">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -178,11 +187,11 @@
     </state>
     <state x="67" y="95" width="1229" height="687" key="MergeDialog/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716461123" />
     <state x="67" y="96" key="MergeDialog/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605881459466" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1605883140849">
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1605893867685">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716985640" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605883140849" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605893867685" />
     <state x="100" y="123" width="1240" height="632" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605716779843">
       <screen x="0" y="23" width="1440" height="832" />
     </state>

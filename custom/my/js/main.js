@@ -107,9 +107,11 @@ $(function () {
     });
 
     $(".effect-filter-label").hover(function () {
-        $(".animation-effect .image").html('<img src="' + $(this).data("url") + '" />');
-        $(".animation-effect .title").text($(this).data("name"));
-        $(".animation-effect").fadeIn();
+        if ($(this).data("name")) {
+            $(".animation-effect .image").html('<img src="' + $(this).data("url") + '" />');
+            $(".animation-effect .title").text($(this).data("name"));
+            $(".animation-effect").show();
+        }
     }, function () {
         $(".animation-effect").hide();
         $(".animation-effect .image").html('');
