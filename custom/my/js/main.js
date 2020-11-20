@@ -99,7 +99,22 @@ $(function () {
         }
         input.val(value);
     });
-    
+
+    $(".effect-filter-label").click(function () {
+        let checked = $(this).find("input").prop("checked");
+        if (checked) $(this).addClass("active");
+        else $(this).removeClass("active");
+    });
+
+    $(".effect-filter-label").hover(function () {
+        $(".animation-effect .image").html('<img src="' + $(this).data("url") + '" />');
+        $(".animation-effect .title").text($(this).data("name"));
+        $(".animation-effect").fadeIn();
+    }, function () {
+        $(".animation-effect").hide();
+        $(".animation-effect .image").html('');
+        $(".animation-effect .title").text("");
+    });
 
 });
 

@@ -1481,7 +1481,15 @@ input:not([type="submit"]):not([type="button"]):not([type="image"]).number {
 
 .header_new {
     background-image: url(../img/head_img.jpg) !important;
-	position: relative !important;
+  position: relative !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header_new a,
+.header_new .phone,
+.header_new .fa-bars {
+  color: #fff !important;
 }
 
 .main__page .header {
@@ -1899,4 +1907,55 @@ header .phone {
   border-radius: 100%;
   font-size: 28px;
   margin-bottom: 20px;
+}
+
+.effect-filter-label {
+  width: 52px;
+  height: 62px;
+  display: inline-block;
+  margin: 0 3px 10px 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: -2px -66px;
+}
+
+.effect-filter-label:hover {
+  background-position: -2px -2px;
+}
+
+.effect-filter-label.active {
+  background-position: -2px -194px;
+}
+
+.shop_search_param19 {
+  position: relative;
+}
+
+.animation-effect {
+  display: none;
+  position: absolute;
+  width: 180px;
+  height: 200px;
+  overflow: hidden;
+  top: -180px;
+  left: 50%;
+  border-radius: 3px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1;
+  background-position: bottom;
+  background-color: #ed0004;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border: 3px solid red;
+}
+
+.animation-effect .image {
+  width: 180px;
+  height: 175px;
+  overflow: hidden;
 }

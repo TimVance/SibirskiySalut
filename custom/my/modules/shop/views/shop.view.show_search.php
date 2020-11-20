@@ -207,13 +207,33 @@ if (!empty($result["rows"])) {
 
             case 'select':
             case 'multiple':
-                echo '
-				<span class="infofield">' . $row["name"] . ':</span><div class="js-scrollbar scrolled_params">';
-                foreach ($row["select_array"] as $key => $value) {
-                    echo '<input type="checkbox" id="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '" name="p' . $row["id"] . '[]" value="' . $key . '"' . (in_array($key, $row["value"]) ? " checked" : '') . '>
-					<label for="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '">' . $value . '</label>';
+                if ($row["id"] == 19) {
+                    echo '<div class="animation-effect">
+                        <div class="image"><img src="/attachments/get/7/1000chry.gif"> </div>
+                        <div class="title">Эффект 1000 хризантем</div>
+                        </div>';
+                    foreach ($row["select_array"] as $key => $value) {
+                        $rows_effects = [];
+                        $rows_effects = DB::query_fetch_key_array("
+                            SELECT * FROM {ab_param_element} AS p JOIN {attachments} AS a ON p.element_id=a.element_id
+                            WHERE p.param_id=%d AND p.[value]=%d", 4, $key, "param_id");
+
+                        if (!empty($rows_effects)) {
+                            echo '<label class="effect-filter-label" style="background-image: url(/attachments/get/' . $rows_effects[2][0]["id"] . '/' . $rows_effects[2][0]["name"] . ')" data-url="/attachments/get/' . $rows_effects[3][0]["id"] . '/' . $rows_effects[3][0]["name"] . '" data-name="'.$value.'">';
+                                echo '<input type="checkbox" id="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '" name="p' . $row["id"] . '[]" value="' . $key . '"' . (in_array($key, $row["value"]) ? " checked" : '') . '>';
+                            echo '</label>';
+                        }
+                    }
                 }
-                echo '</div>';
+                else {
+                    echo '
+				    <span class="infofield">' . $row["name"] . ':</span><div class="js-scrollbar scrolled_params">';
+                    foreach ($row["select_array"] as $key => $value) {
+                        echo '<input type="checkbox" id="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '" name="p' . $row["id"] . '[]" value="' . $key . '"' . (in_array($key, $row["value"]) ? " checked" : '') . '>
+					<label for="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '">' . $value . '</label>';
+                    }
+                    echo '</div>';
+                }
         }
         echo '
 		</div>';
