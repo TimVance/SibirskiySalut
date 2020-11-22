@@ -214,6 +214,7 @@ if (!empty($result["rows"])) {
                         <div class="image"></div>
                         <div class="title"></div>
                         </div>';
+                    $first = true;
                     foreach ($row["select_array"] as $key => $value) {
                         $rows_effects = [];
                         $rows_effects = DB::query_fetch_key_array("
@@ -224,6 +225,14 @@ if (!empty($result["rows"])) {
                             echo '<label class="effect-filter-label '.(in_array($key, $row["value"]) ? " active" : '').'" style="background-image: url(/attachments/get/' . $rows_effects[2][0]["id"] . '/' . $rows_effects[2][0]["name"] . ')" data-url="/attachments/get/' . $rows_effects[3][0]["id"] . '/' . $rows_effects[3][0]["name"] . '" data-name="'.$value.'">';
                                 echo '<input type="checkbox" id="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '" name="p' . $row["id"] . '[]" value="' . $key . '"' . (in_array($key, $row["value"]) ? " checked" : '') . '>';
                             echo '</label>';
+                        }
+                        else {
+                            if ($first) {
+                                echo '<br>';
+                                $first = false;
+                            }
+                            echo '<input type="checkbox" id="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '" name="p' . $row["id"] . '[]" value="' . $key . '"' . (in_array($key, $row["value"]) ? " checked" : '') . '>
+					        <label for="shop_search_p' . $row["id"] . '_' . $key . '' . $rand_id . '">' . $value . '</label>';
                         }
                     }
                 }

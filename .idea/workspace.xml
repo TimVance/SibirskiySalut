@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="">
+    <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="Калибр">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/modules/shop/views/shop.view.show_search.php" afterDir="false" />
@@ -67,7 +68,8 @@
       <workItem from="1605881094527" duration="2814000" />
       <workItem from="1605883918366" duration="8871000" />
       <workItem from="1605893998572" duration="1137000" />
-      <workItem from="1605895601103" duration="1942000" />
+      <workItem from="1605895601103" duration="2025000" />
+      <workItem from="1606039641537" duration="935000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605217808833</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605895122552</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Калибр">
+      <created>1605897614756</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605897614756</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,18 +182,20 @@
     <MESSAGE value="Вывел ссылки в админке правильно" />
     <MESSAGE value="Сортировка объявлений" />
     <MESSAGE value="При наведении эффекты" />
-    <option name="LAST_COMMIT_MESSAGE" value="При наведении эффекты" />
+    <MESSAGE value="Калибр" />
+    <option name="LAST_COMMIT_MESSAGE" value="Калибр" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="104" key="#Deployment" timestamp="1605537826780">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605537826780" />
-    <state x="304" y="31" key="CommitChangelistDialog2" timestamp="1605895122319">
+    <state x="304" y="31" key="CommitChangelistDialog2" timestamp="1606040573270">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716982716" />
-    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605895122319" />
+    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605897614450" />
+    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824@0.25.1440.824" timestamp="1606040573270" />
     <state x="577" y="343" key="Github.ShareDialog" timestamp="1605543200218">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -194,11 +205,11 @@
     </state>
     <state x="67" y="95" width="1229" height="687" key="MergeDialog/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716461123" />
     <state x="67" y="96" key="MergeDialog/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605881459466" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1605895125133">
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1605897617416">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716985640" />
-    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605895125133" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605897617416" />
     <state x="100" y="123" width="1240" height="632" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605716779843">
       <screen x="0" y="23" width="1440" height="832" />
     </state>

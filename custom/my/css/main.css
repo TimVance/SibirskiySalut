@@ -1961,16 +1961,20 @@ header .phone {
 }
 
 .shop_search_param14 input[type="checkbox"]+label:before,
-.shop_search_param14 input[type="radio"]+label:before {
+.shop_search_param14 input[type="radio"]+label:before,
+.shop_search_param19 input[type="checkbox"]+label:before,
+.shop_search_param19 input[type="radio"]+label:before {
   display: none;
 }
 
-.shop_search_param14 input[type="checkbox"]:checked+label {
+.shop_search_param14 input[type="checkbox"]:checked+label,
+.shop_search_param19 input[type="checkbox"]:checked+label {
   background-color: red;
   color: #fff;
 }
 
-.shop_search_param14 label {
+.shop_search_param14 label,
+.shop_search_param19 label {
   border: 1px solid #ccc;
   display: inline-block !important;
   padding: 3px 5px;
