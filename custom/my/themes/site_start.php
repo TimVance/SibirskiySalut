@@ -112,13 +112,12 @@ $(function () {
             $(window).scroll(function () {
                 var scrollEvent = ($(window).scrollTop() > (target_block.offset().top - $(window).height()));
                 if (scrollEvent && blockStatus) {
-                    console.log("ty");
                     blockStatus = false; // Запрещаем повторное выполнение функции до следующей перезагрузки страницы.
                     $({numberValue: 0}).animate({numberValue: target_block.data("number")}, {
                         duration: 3000, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд
                         easing: "linear",
                         step: function (val) {
-                            target_block.html(Math.ceil(val)); // Блок, где необходимо сделать анимацию
+                            target_block.find(".number-inner").html(Math.ceil(val)); // Блок, где необходимо сделать анимацию
                         }
                     });
                 }

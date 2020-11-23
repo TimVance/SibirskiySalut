@@ -32,7 +32,10 @@ if (empty($result)) {
 <div class="counters-list">
     <? foreach ($result as $item): ?>
         <div class="counters-item">
-            <div data-number="<?= intval(strip_tags($item["text"])) ?>" class="number"><?= intval(strip_tags($item["text"])) ?></div>
+            <div data-number="<?= intval(strip_tags($item["text"])) ?>" class="number">
+                <span class="number-inner"><?= intval(strip_tags($item["text"])) ?></span>
+                <span class="number-addiction"><?=$item["html"]?></span>
+            </div>
             <div class="title"><?= $item["name"] ?></div>
         </div>
     <? endforeach; ?>

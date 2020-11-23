@@ -1898,12 +1898,12 @@ header .phone {
 
 .counters-item .number {
   border: 5px solid #fff;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: 100%;
   font-size: 28px;
   margin-bottom: 20px;

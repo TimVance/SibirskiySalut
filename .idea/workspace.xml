@@ -4,7 +4,8 @@
     <list default="true" id="f1469b24-a92c-4ea3-9499-ce32b4a595c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom/my/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/ab/ab.model.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/ab/ab.model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/modules/bs/views/bs.view.show_block_counters.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/modules/bs/views/bs.view.show_block_counters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom/my/themes/site_start.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom/my/themes/site_start.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <workItem from="1605893998572" duration="1137000" />
       <workItem from="1605895601103" duration="2025000" />
       <workItem from="1606039641537" duration="1045000" />
-      <workItem from="1606121627189" duration="328000" />
+      <workItem from="1606121627189" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1605217808833</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606040690609</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Сортировка">
+      <created>1606122025122</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606122025122</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +199,8 @@
     <MESSAGE value="При наведении эффекты" />
     <MESSAGE value="Калибр" />
     <MESSAGE value="Эффекты текстом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Эффекты текстом" />
+    <MESSAGE value="Сортировка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сортировка" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="105" key="#Deployment" timestamp="1606040608685">
@@ -199,11 +208,11 @@
     </state>
     <state x="320" y="104" key="#Deployment/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605537826780" />
     <state x="320" y="105" key="#Deployment/0.25.1440.824@0.25.1440.824" timestamp="1606040608685" />
-    <state x="304" y="31" key="CommitChangelistDialog2" timestamp="1606040690370">
+    <state x="304" y="31" key="CommitChangelistDialog2" timestamp="1606122024756">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="304" y="42" key="CommitChangelistDialog2/0.23.1440.832/1440.-98.1920.1057@0.23.1440.832" timestamp="1605716982716" />
-    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1605897614450" />
+    <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824/1440.-96.1920.1055@0.25.1440.824" timestamp="1606122024756" />
     <state x="304" y="31" key="CommitChangelistDialog2/0.25.1440.824@0.25.1440.824" timestamp="1606040690370" />
     <state x="577" y="343" key="Github.ShareDialog" timestamp="1605543200218">
       <screen x="0" y="23" width="1440" height="832" />
