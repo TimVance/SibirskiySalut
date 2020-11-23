@@ -1585,7 +1585,7 @@ class Ab_model extends Model
 					break;
 
 				default :
-					$order = ' ORDER BY e.id DESC, e.prior';
+					$order = ' ORDER BY e.id ASC, e.prior';
 			}
 			$result["rows"] = array();
 

@@ -778,7 +778,7 @@ button {
     padding-bottom: 20px; }
   .block_search input[type="checkbox"] + label, .block_search input[type="radio"] + label {
     display: block;
-    margin-bottom: 20px; }
+    /*margin-bottom: 20px;*/ }
   .block_search input, .block_search select {
     margin-bottom: 20px; }
   .block_search .inline {
@@ -795,7 +795,7 @@ button {
       width: 100% !important; }
   .block_search .scrolled_params {
     position: relative;
-    max-height: 148px;
+    /*max-height: 148px;*/
     margin-bottom: 20px;
     padding-top: 4px; }
   .block_search .infofield {
